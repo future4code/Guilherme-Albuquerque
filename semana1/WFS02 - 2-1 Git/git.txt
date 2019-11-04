@@ -1,0 +1,148 @@
+Desafio 1;
+
+$ level intro1
+
+$ hint
+
+Simplesmente digite 'git commit' duas vezes para concluir!
+
+$ delay 2000
+
+$ show goal
+
+$ git commit
+
+$ git commit
+_______________________________________________________________________________________________
+$ level intro2
+
+$ hint
+
+Crie um novo ramo com "git branch [nome]" e mude para ele com "git checkout [nome]"
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout -b bugFix
+_______________________________________________________________________________________________
+$ level intro3
+
+$ hint
+
+Lembre-se de commitar na ordem especificada (bugFix antes de master)
+
+$ delay 2000
+
+$ show goal
+
+$ git checkbox -b bugFix
+
+The command "git checkbox -b bugFix" isn't supported, sorry!
+
+$ git checkout -b bugFix
+
+$ git commit
+
+$ git checkout master
+
+$ git commit
+
+$ git merge bugFix
+_______________________________________________________________________________________________
+$ level intro4
+
+$ hint
+
+O bugFix precisa ser commitado primeiro
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout -b bugFix
+
+$ git commit
+
+$ git checkout master
+
+$ git commit
+
+$ git checkout bugFix
+
+$ objective
+
+$ git rebase master
+_________________________________________________________________________________________________
+Desafio 2;
+
+$ level rampup1
+
+$ hint
+
+Use o identificador (hash) sobre o commit para te ajudar!
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout c4
+
+_________________________________________________________________________________________________
+$ level rampup2
+
+$ hint
+
+Não se esqueça do operador circunflexo (^)
+
+$ delay 2000
+
+$ show goal
+
+$ git checkout bugFix
+
+$ git checkout master^
+
+$ git checkout bugFix
+
+$ git checkout head^
+
+A referência head^ não existe ou é desconhecida
+
+$ git checkout HEAD^
+
+_________________________________________________________________________________________________
+
+$ level rampup3
+
+$ hint
+
+Você precisará usar pelo menos uma referência direta (hash) para completar este nível
+
+$ delay 2000
+
+$ show goal
+
+$ git branch -f bugFix HEAD~2
+
+$ git branch -f master c6
+
+$ git checkout c1
+
+_________________________________________________________________________________________________
+
+$ level rampup4
+
+$ hint
+
+Lembre que revert e reset recebem parâmetros diferentes
+
+$ delay 2000
+
+$ show goal
+
+$ git reset HEAD^
+
+$ git checkout pushed
+
+$ git revert HEAD
