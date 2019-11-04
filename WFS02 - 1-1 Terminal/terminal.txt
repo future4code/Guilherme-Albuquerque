@@ -1,0 +1,733 @@
+ódigo do cmd:
+
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~
+$ cd Desktop
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop
+$ ls
+ µTorrent.lnk*                     'Counter-Strike Global Offensive.url'   Discord.lnk*                        'The Cycle Early Access.url'
+ assassinato-na-linha-de-comando/   Cursos/                                Fortnite.url
+ Atom.lnk*                          desktop.ini                            Insurgency.url
+ aula1/                            'Destiny 2.url'                        "PLAYERUNKNOWN'S BATTLEGROUNDS.url"
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop
+$ cd assassinato-na-linha-de-comando/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ ls
+inicio  misterio/  README.md
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ cat README.md
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ cat inicio
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ ls
+inicio  misterio/  README.md
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ cd misterio
+
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+
+**AQUI EU DEI UM CAT NA CENA DO CRIME GIGANTE E SUMIU OQ EU TINHA FEITO HEHE**
+
+$ cat automoveis
+
+$ PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep PISTA cena-do-crime
+PISTA: A filmagem do caixa eletrônico está embaçada, mas mostra que o suspeito é um homem alto, pelo menos 1,83m de altura.
+PISTA: Encontramos uma carteira que provavelmente pertence ao assassino. Nenhum documento de identidade, apenas alguns trocados e carteirinhas dos grupos AAA, Delta SkyMiles, biblioteca e do Museu de História do Bash. Impossível rastrear as carteirinhas, e nenhuma delas possui nome, por algum motivo.
+PISTA: Interrogamos o garçom da cafeteria próxima à cena. Ele disse que uma mulher saiu da cafeteria logo antes de ouvirem os tiros. O nome dela era Annabel, tinha cabelo loiro curto e um sotaque da Nova Zelândia.
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep Annabel automoveis
+Proprietário: Oluwasegun Annabel
+Proprietário: Annabel Church
+Proprietário: Annabel Sun
+Proprietário: Annabel Fuglsang
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep Annabel pessoas
+Annabel Sun     F       26      Vila Hart, linha 40
+Oluwasegun Annabel      M       37      Rua Mattapan, linha 173
+Annabel Church  F       38      Vila Buckingham, linha 179
+Annabel Fuglsang        M       40      Rua Haley, linha 176
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd entrevistas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ ls
+entrevista-000296    entrevista-1578206   entrevista-296128    entrevista-41814745  entrevista-565396    entrevista-71226767  entrevista-86395001
+entrevista-00448418  entrevista-159848    entrevista-29680692  entrevista-4204949   entrevista-566707    entrevista-71298441  entrevista-865918
+entrevista-00502304  entrevista-16098538  entrevista-29741223  entrevista-42161907  entrevista-56784802  entrevista-7180973   entrevista-867999
+entrevista-005702    entrevista-1642421   entrevista-2976680   entrevista-4223536   entrevista-56892213  entrevista-71993338  entrevista-8700943
+entrevista-00617019  entrevista-1643440   entrevista-29838622  entrevista-4225866   entrevista-57236791  entrevista-720268    entrevista-87126591
+entrevista-00805135  entrevista-16889008  entrevista-2995681   entrevista-42396365  entrevista-5739404   entrevista-7254073   entrevista-871877
+entrevista-016463    entrevista-17248453  entrevista-301018    entrevista-4262657   entrevista-5766907   entrevista-728181    entrevista-879569
+entrevista-020337    entrevista-17343208  entrevista-30259493  entrevista-42934869  entrevista-5774468   entrevista-730123    entrevista-8819490
+entrevista-022751    entrevista-174898    entrevista-3049045   entrevista-4299898   entrevista-5782759   entrevista-73035802  entrevista-891720
+entrevista-0234126   entrevista-1767435   entrevista-305694    entrevista-4335306   entrevista-579105    entrevista-7305678   entrevista-896668
+entrevista-02422821  entrevista-17827186  entrevista-305949    entrevista-4366523   entrevista-5835471   entrevista-73585672  entrevista-9004767
+entrevista-0251720   entrevista-179719    entrevista-306616    entrevista-44533008  entrevista-586668    entrevista-737609    entrevista-901603
+entrevista-03098229  entrevista-1811770   entrevista-3074127   entrevista-4463090   entrevista-58910793  entrevista-7422077   entrevista-901645
+entrevista-0315125   entrevista-18193261  entrevista-3099757   entrevista-448086    entrevista-5905106   entrevista-74225310  entrevista-90394637
+entrevista-03316077  entrevista-1823688   entrevista-312546    entrevista-45615686  entrevista-591273    entrevista-7469675   entrevista-904020
+entrevista-034070    entrevista-18270219  entrevista-3128999   entrevista-457117    entrevista-5993978   entrevista-7541406   entrevista-907126
+entrevista-0349327   entrevista-18441251  entrevista-3140662   entrevista-457451    entrevista-60081985  entrevista-75434722  entrevista-9074626
+entrevista-04393507  entrevista-1850922   entrevista-31635890  entrevista-466195    entrevista-604403    entrevista-755037    entrevista-911451
+entrevista-044492    entrevista-1857368   entrevista-3201508   entrevista-4673074   entrevista-608607    entrevista-75633580  entrevista-91673757
+entrevista-0462097   entrevista-1906958   entrevista-322305    entrevista-46773428  entrevista-6093093   entrevista-7580872   entrevista-917210
+entrevista-049721    entrevista-191206    entrevista-32365018  entrevista-47246024  entrevista-618764    entrevista-77014856  entrevista-9185205
+entrevista-05297663  entrevista-19300543  entrevista-324389    entrevista-4735823   entrevista-6203192   entrevista-770439    entrevista-920304
+entrevista-06032377  entrevista-1933118   entrevista-325611    entrevista-4765278   entrevista-628618    entrevista-77135281  entrevista-92391023
+entrevista-0613334   entrevista-19577850  entrevista-32639981  entrevista-476744    entrevista-63308519  entrevista-7791374   entrevista-92670500
+entrevista-066291    entrevista-2058907   entrevista-32712166  entrevista-478217    entrevista-637657    entrevista-780255    entrevista-927642
+entrevista-071537    entrevista-210355    entrevista-331178    entrevista-48088300  entrevista-637928    entrevista-7863761   entrevista-9332386
+entrevista-0732631   entrevista-218131    entrevista-332596    entrevista-48148020  entrevista-638121    entrevista-789564    entrevista-9346061
+entrevista-07497003  entrevista-221039    entrevista-33399976  entrevista-483817    entrevista-6417794   entrevista-791289    entrevista-93473333
+entrevista-0768255   entrevista-223913    entrevista-340396    entrevista-485229    entrevista-645385    entrevista-79360358  entrevista-93696502
+entrevista-092423    entrevista-2277882   entrevista-34041151  entrevista-4950099   entrevista-6553472   entrevista-79411932  entrevista-938991
+entrevista-0953437   entrevista-229443    entrevista-342393    entrevista-4961376   entrevista-65792229  entrevista-794525    entrevista-9408565
+entrevista-096267    entrevista-23167806  entrevista-34359897  entrevista-496772    entrevista-659803    entrevista-7959148   entrevista-94126412
+entrevista-102490    entrevista-2326746   entrevista-344331    entrevista-498331    entrevista-66101490  entrevista-796439    entrevista-9437737
+entrevista-109118    entrevista-23371263  entrevista-34690644  entrevista-499096    entrevista-66282920  entrevista-79667499  entrevista-944493
+entrevista-1108561   entrevista-233800    entrevista-347303    entrevista-50168425  entrevista-6643191   entrevista-79935965  entrevista-9446528
+entrevista-114661    entrevista-2415821   entrevista-351963    entrevista-50291987  entrevista-67279454  entrevista-7998181   entrevista-9501580
+entrevista-11495001  entrevista-243703    entrevista-353218    entrevista-504687    entrevista-673985    entrevista-8095917   entrevista-95095182
+entrevista-116803    entrevista-2481877   entrevista-353467    entrevista-509105    entrevista-676473    entrevista-809922    entrevista-95601730
+entrevista-11705111  entrevista-250112    entrevista-354262    entrevista-5143029   entrevista-67790846  entrevista-812725    entrevista-9618669
+entrevista-11783660  entrevista-253705    entrevista-3588302   entrevista-514793    entrevista-680549    entrevista-81443363  entrevista-9620713
+entrevista-11817172  entrevista-255531    entrevista-3609204   entrevista-52280505  entrevista-6808205   entrevista-822576    entrevista-9651888
+entrevista-1186827   entrevista-25582311  entrevista-36398447  entrevista-528044    entrevista-68195573  entrevista-8245680   entrevista-9666149
+entrevista-1205060   entrevista-25834905  entrevista-364735    entrevista-529706    entrevista-68488577  entrevista-825165    entrevista-97043057
+entrevista-1250176   entrevista-259909    entrevista-36527398  entrevista-53318557  entrevista-68764140  entrevista-82705993  entrevista-9709892
+entrevista-125204    entrevista-2601508   entrevista-376115    entrevista-535181    entrevista-6884359   entrevista-831512    entrevista-9711852
+entrevista-125271    entrevista-26373485  entrevista-37747405  entrevista-5372865   entrevista-6894000   entrevista-833367    entrevista-9712946
+entrevista-1269181   entrevista-2642139   entrevista-3804339   entrevista-538900    entrevista-69170457  entrevista-838259    entrevista-9728756
+entrevista-1310392   entrevista-27042476  entrevista-3824641   entrevista-54026669  entrevista-6933068   entrevista-8387710   entrevista-97393699
+entrevista-13768464  entrevista-27504937  entrevista-38299069  entrevista-541518    entrevista-699607    entrevista-8402388   entrevista-97409610
+entrevista-13889608  entrevista-275706    entrevista-3871205   entrevista-5455315   entrevista-70067280  entrevista-8421696   entrevista-980963
+entrevista-13920860  entrevista-279087    entrevista-3871242   entrevista-54619323  entrevista-70199425  entrevista-8464899   entrevista-982013
+entrevista-1395414   entrevista-280877    entrevista-38899905  entrevista-54851634  entrevista-703831    entrevista-84688694  entrevista-9824821
+entrevista-141030    entrevista-2834518   entrevista-3917097   entrevista-549055    entrevista-704443    entrevista-849256    entrevista-98912259
+entrevista-14153840  entrevista-284560    entrevista-391811    entrevista-55382746  entrevista-70458099  entrevista-85262552  entrevista-9901455
+entrevista-144873    entrevista-2846076   entrevista-39481114  entrevista-55410365  entrevista-7046684   entrevista-8531248   entrevista-9912172
+entrevista-14590717  entrevista-289524    entrevista-39825862  entrevista-55435298  entrevista-7066082   entrevista-856221    entrevista-992072
+entrevista-147283    entrevista-290346    entrevista-40534453  entrevista-55477243  entrevista-706620    entrevista-8586380   entrevista-99643550
+entrevista-15187437  entrevista-291440    entrevista-40610944  entrevista-555536    entrevista-707438    entrevista-861780    entrevista-9969223
+entrevista-15354942  entrevista-2922290   entrevista-409731    entrevista-5581158   entrevista-708943    entrevista-862173    entrevista-999372
+entrevista-1536668   entrevista-29316965  entrevista-41553314  entrevista-55841398  entrevista-7103823   entrevista-862717
+entrevista-155049    entrevista-2939888   entrevista-416243    entrevista-55984022  entrevista-71186817  entrevista-8631232
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ ^C
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/associacoes
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd ruas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ ls
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd ruas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ cat Vila_Hart
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ head -n 40 Vila_Hart
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd entrevistas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-47246024
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-47246024
+A Srta. Sun tem cabelo castanho e não é da Nova Zelândia. Não é a testemunha da cafeteria.
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd ruas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ ls
+Alameda_Hooten             Parque_Merola       Rua_Fessenden         Rua_Rockmere         Travessa_Embassy
+Alameda_Lineham            Parque_Wilkinson    Rua_Foundry           Rua_Rosaria          Travessa_Esther
+Alameda_Saint_Saveur       Rua_Abbot           Rua_Fowler            Rua_Rowe             Travessa_Eugenia
+Alameda_Senders            Rua_Acton           Rua_Gerard            Rua_Rozella          Travessa_Faunce
+Alameda_Unity              Rua_Alaric          Rua_Granby            Rua_Saco             Travessa_Forestvale
+Avenida_Bartlett           Rua_Albany          Rua_Groveland         Rua_Salutation       Travessa_Frontage
+Avenida_Bellevue           Rua_Aldworth        Rua_Haley             Rua_Saunders         Travessa_Greendale
+Avenida_Bertson            Rua_Alpine          Rua_Hazel             Rua_Scotia           Travessa_Gretter
+Avenida_Blue_Hill          Rua_Aramon          Rua_Hazelton          Rua_Selwyn           Travessa_Harding
+Avenida_Brookline          Rua_Arcola          Rua_Hobart            Rua_Sheldon          Travessa_High
+Avenida_Cardinal_Medeiros  Rua_Auriga          Rua_Hollander         Rua_Silver           Travessa_Jacqueline
+Avenida_Cerdan             Rua_B               Rua_Hopedale          Rua_Sparrow          Travessa_John_Alden
+Avenida_Dana               Rua_Ballard         Rua_Hull              Rua_Spaulding        Travessa_Kinross
+Avenida_Glenville          Rua_Bicknell        Rua_Jacob             Rua_Standard         Travessa_Laban_Pratt
+Avenida_Glenwood           Rua_Bobolink        Rua_Jersey            Rua_Staniford        Travessa_Leseur
+Avenida_High_View          Rua_Boston          Rua_Jeshurun          Rua_Story            Travessa_Meadowview
+Avenida_Kearsarge          Rua_Boynton         Rua_Judge             Rua_Tennyson         Travessa_Mount_Ash
+Avenida_Manila             Rua_Brinton         Rua_June              Rua_Theodore         Travessa_Mount_Ida
+Avenida_Michigan           Rua_Bristol         Rua_Knoll             Rua_Tolman           Travessa_Myles_Standish
+Avenida_Mountain           Rua_Broad_Canal     Rua_Lovis             Rua_Topeka           Travessa_Newcastle
+Avenida_New_Park           Rua_Brookdale       Rua_Lynde             Rua_Trapelo          Travessa_Oliva
+Avenida_Oak_Hill           Rua_Cardington      Rua_Lynn              Rua_Trident          Travessa_Orchard
+Avenida_Richard            Rua_Causeway        Rua_Marney            Rua_Vinton           Travessa_Paragon
+Avenida_Sammett            Rua_Channel_Center  Rua_Mattapan          Rua_Vista            Travessa_Peter_Parley
+Avenida_Taunton            Rua_Clay            Rua_May               Rua_Waldeck          Travessa_Priscilla
+Avenida_Warren             Rua_Claybourne      Rua_Miles             Rua_Wentworth        Travessa_Quarley
+Avenida_Wheatland          Rua_Cook            Rua_Moloney           Rua_Wiget            Travessa_Searle
+Avenida_Willowdean         Rua_Cornelia        Rua_Mozart            Rua_Wiggin           Travessa_Supple
+Avenida_Wilmington         Rua_Corwin          Rua_Mystic            Rua_Willet           Travessa_Victory
+Avenida_Wooddale           Rua_Culbert         Rua_Nazing            Rua_Winter           Travessa_Wallingford
+Avenida_Wycliff            Rua_Dacia           Rua_New_Minton        Rua_Woodcliff        Travessa_Wilcox
+Devine_Way                 Rua_Dalton          Rua_North_Washington  Rua_Worrell          Travessa_Williston
+Grampian_Way               Rua_Davenport       Rua_Norton            Travessa_Addington   Vila_Buckingham
+Gray_Gardens_East          Rua_Dewar           Rua_Oakley            Travessa_Andover     Vila_Hart
+Hadassah_Way               Rua_Doane           Rua_Pinewood          Travessa_Ansonia     Vila_Island_View
+Harbor_Point_Boulevard     Rua_Dock            Rua_Plain             Travessa_Appleton    Vila_Jamaica
+Largo_Clipper_Ship         Rua_Dorrance        Rua_Plainfield        Travessa_Atwood      Vila_King
+Largo_Gillespies           Rua_Dover           Rua_Potosi            Travessa_Avalon      Vila_Oak
+Largo_Peacock              Rua_Dresser         Rua_Proctor           Travessa_Bothwell    Vila_Randlett
+Largo_Vassal               Rua_Elmore          Rua_Rena              Travessa_Bournedale  Vila_Terrace
+Mamelon_Circle             Rua_Enterprise      Rua_Renfrew           Travessa_Burwell     Vila_Trinity
+Manton_Terrace             Rua_Estrella        Rua_Richardson        Travessa_Cadbury     Vila_Wesley
+Newcroft_Circle            Rua_Fairfield       Rua_Richmond          Travessa_Cheverus
+Parque_Balmoral            Rua_Fay             Rua_River             Travessa_Drumlin
+Parque_Claremont           Rua_Fayston         Rua_Rivermoor         Travessa_Dunstable
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ head -n 173 Rua_Mattapan
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-9437737
+Doesn't appear to be the witness from the cafe, who is female.
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-9437737
+Doesn't appear to be the witness from the cafe, who is female.
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd ruas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ ls
+Alameda_Hooten             Parque_Merola       Rua_Fessenden         Rua_Rockmere         Travessa_Embassy
+Alameda_Lineham            Parque_Wilkinson    Rua_Foundry           Rua_Rosaria          Travessa_Esther
+Alameda_Saint_Saveur       Rua_Abbot           Rua_Fowler            Rua_Rowe             Travessa_Eugenia
+Alameda_Senders            Rua_Acton           Rua_Gerard            Rua_Rozella          Travessa_Faunce
+Alameda_Unity              Rua_Alaric          Rua_Granby            Rua_Saco             Travessa_Forestvale
+Avenida_Bartlett           Rua_Albany          Rua_Groveland         Rua_Salutation       Travessa_Frontage
+Avenida_Bellevue           Rua_Aldworth        Rua_Haley             Rua_Saunders         Travessa_Greendale
+Avenida_Bertson            Rua_Alpine          Rua_Hazel             Rua_Scotia           Travessa_Gretter
+Avenida_Blue_Hill          Rua_Aramon          Rua_Hazelton          Rua_Selwyn           Travessa_Harding
+Avenida_Brookline          Rua_Arcola          Rua_Hobart            Rua_Sheldon          Travessa_High
+Avenida_Cardinal_Medeiros  Rua_Auriga          Rua_Hollander         Rua_Silver           Travessa_Jacqueline
+Avenida_Cerdan             Rua_B               Rua_Hopedale          Rua_Sparrow          Travessa_John_Alden
+Avenida_Dana               Rua_Ballard         Rua_Hull              Rua_Spaulding        Travessa_Kinross
+Avenida_Glenville          Rua_Bicknell        Rua_Jacob             Rua_Standard         Travessa_Laban_Pratt
+Avenida_Glenwood           Rua_Bobolink        Rua_Jersey            Rua_Staniford        Travessa_Leseur
+Avenida_High_View          Rua_Boston          Rua_Jeshurun          Rua_Story            Travessa_Meadowview
+Avenida_Kearsarge          Rua_Boynton         Rua_Judge             Rua_Tennyson         Travessa_Mount_Ash
+Avenida_Manila             Rua_Brinton         Rua_June              Rua_Theodore         Travessa_Mount_Ida
+Avenida_Michigan           Rua_Bristol         Rua_Knoll             Rua_Tolman           Travessa_Myles_Standish
+Avenida_Mountain           Rua_Broad_Canal     Rua_Lovis             Rua_Topeka           Travessa_Newcastle
+Avenida_New_Park           Rua_Brookdale       Rua_Lynde             Rua_Trapelo          Travessa_Oliva
+Avenida_Oak_Hill           Rua_Cardington      Rua_Lynn              Rua_Trident          Travessa_Orchard
+Avenida_Richard            Rua_Causeway        Rua_Marney            Rua_Vinton           Travessa_Paragon
+Avenida_Sammett            Rua_Channel_Center  Rua_Mattapan          Rua_Vista            Travessa_Peter_Parley
+Avenida_Taunton            Rua_Clay            Rua_May               Rua_Waldeck          Travessa_Priscilla
+Avenida_Warren             Rua_Claybourne      Rua_Miles             Rua_Wentworth        Travessa_Quarley
+Avenida_Wheatland          Rua_Cook            Rua_Moloney           Rua_Wiget            Travessa_Searle
+Avenida_Willowdean         Rua_Cornelia        Rua_Mozart            Rua_Wiggin           Travessa_Supple
+Avenida_Wilmington         Rua_Corwin          Rua_Mystic            Rua_Willet           Travessa_Victory
+Avenida_Wooddale           Rua_Culbert         Rua_Nazing            Rua_Winter           Travessa_Wallingford
+Avenida_Wycliff            Rua_Dacia           Rua_New_Minton        Rua_Woodcliff        Travessa_Wilcox
+Devine_Way                 Rua_Dalton          Rua_North_Washington  Rua_Worrell          Travessa_Williston
+Grampian_Way               Rua_Davenport       Rua_Norton            Travessa_Addington   Vila_Buckingham
+Gray_Gardens_East          Rua_Dewar           Rua_Oakley            Travessa_Andover     Vila_Hart
+Hadassah_Way               Rua_Doane           Rua_Pinewood          Travessa_Ansonia     Vila_Island_View
+Harbor_Point_Boulevard     Rua_Dock            Rua_Plain             Travessa_Appleton    Vila_Jamaica
+Largo_Clipper_Ship         Rua_Dorrance        Rua_Plainfield        Travessa_Atwood      Vila_King
+Largo_Gillespies           Rua_Dover           Rua_Potosi            Travessa_Avalon      Vila_Oak
+Largo_Peacock              Rua_Dresser         Rua_Proctor           Travessa_Bothwell    Vila_Randlett
+Largo_Vassal               Rua_Elmore          Rua_Rena              Travessa_Bournedale  Vila_Terrace
+Mamelon_Circle             Rua_Enterprise      Rua_Renfrew           Travessa_Burwell     Vila_Trinity
+Manton_Terrace             Rua_Estrella        Rua_Richardson        Travessa_Cadbury     Vila_Wesley
+Newcroft_Circle            Rua_Fairfield       Rua_Richmond          Travessa_Cheverus
+Parque_Balmoral            Rua_Fay             Rua_River             Travessa_Drumlin
+Parque_Claremont           Rua_Fayston         Rua_Rivermoor         Travessa_Dunstable
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ head -n 179 Vila_Buckingham
+
+LEIA A ENTREVISTA #699607
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd entrevistas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-699607
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd ruas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ head -n 176 Rua_Haley
+
+LEIA A ENTREVISTA #871877
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd entrevistas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-871877
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-871877
+Mr. Fuglsang is male and has brown hair.  Not the witness from the cafe.
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cat automoveis
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep L337 -c3 automoveis
+13
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep L337 -n3 automoveis
+864-Altura: 1,93 m
+865-Peso: 108,0 kg
+866-
+867:Placa L337ZR9
+868-Marca: Honda
+869-Cor: Vermelho
+870-Proprietário: Katie Park
+--
+2166-Altura: 1,53 m
+2167-Peso: 68,0 kg
+2168-
+2169:Placa L337P89
+2170-Marca: Honda
+2171-Cor: Petróleo
+2172-Proprietário: Mike Bostock
+--
+5456-Altura: 1,63 m
+5457-Peso: 74,4 kg
+5458-
+5459:Placa L337GX9
+5460-Marca: Mazda
+5461-Cor: Laranja
+5462-Proprietário: John Keefe
+--
+7164-Altura: 1,53 m
+7165-Peso: 97,1 kg
+7166-
+7167:Placa L337QE9
+7168-Marca: Honda
+7169-Cor: Azul
+7170-Proprietário: Erika Owens
+--
+13562-Altura: 1,88 m
+13563-Peso: 102,5 kg
+13564-
+13565:Placa L337GB9
+13566-Marca: Toyota
+13567-Cor: Azul
+13568-Proprietário: Matt Waite
+--
+13653-Altura: 1,63 m
+13654-Peso: 108,9 kg
+13655-
+13656:Placa L337OI9
+13657-Marca: Jaguar
+13658-Cor: Azul
+13659-Proprietário: Brian Boyer
+--
+15921-Altura: 1,83 m
+15922-Peso: 79,4 kg
+15923-
+15924:Placa L337X19
+15925-Marca: Fiat
+15926-Cor: Azul
+15927-Proprietário: Al Shaw
+--
+17741-Altura: 1,73 m
+17742-Peso: 82,1 kg
+17743-
+17744:Placa L337539
+17745-Marca: Honda
+17746-Cor: Azul
+17747-Proprietário: Aron Pilhofer
+--
+22081-Altura: 1,65 m
+22082-Peso: 64,9 kg
+22083-
+22084:Placa L3373U9
+22085-Marca: Ford
+22086-Cor: Azul
+22087-Proprietário: Miranda Mulligan
+--
+23824-Altura: 1,58 m
+23825-Peso: 108,4 kg
+23826-
+23827:Placa L337369
+23828-Marca: Honda
+23829-Cor: Azul
+23830-Proprietário: Heather Billings
+--
+24832-Altura: 1,91 m
+24833-Peso: 62,1 kg
+24834-
+24835:Placa L337DV9
+24836-Marca: Honda
+24837-Cor: Azul
+24838-Proprietário: Joe Germuska
+--
+31825-Altura: 1,8 m
+31826-Peso: 79,8 kg
+31827-
+31828:Placa L3375A9
+31829-Marca: Honda
+31830-Cor: Azul
+31831-Proprietário: Jeremy Bowers
+--
+34310-Altura: 1,86 m
+34311-Peso: 101,6 kg
+34312-
+34313:Placa L337WR9
+34314-Marca: Honda
+34315-Cor: Azul
+34316-Proprietário: Jacqui Maher
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cat pessoas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep Erika Owens pessoas
+grep: Owens: No such file or directory
+pessoas:Erika Owens     F       56      Rua Trapelo, linha 98
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Aron-Pilhofer pessoas
+> grep "Aron-Pilhofer" pessoas
+
+*AQUI MEU CMD Travou XD*
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Aron/Pilhofer" pessoas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Aron Pilhofer" pessoas
+Aron Pilhofer   M       16      Rua Claybourne, linha 145
+
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~
+$ cd Desktop
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop
+$ cd assassinato-na-linha-de-comando/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ ls
+inicio  misterio/  README.md
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando
+$ cd misterio
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Aron/Pilhofer" pessoas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Aron Pilhofer" pessoas
+Aron Pilhofer   M       16      Rua Claybourne, linha 145
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Heather Billings" pessoas
+Heather Billings        F       38      Rua Culbert, linha 19
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Joe Germuska" pessoas
+Joe Germuska    M       65      Rua Plainfield, linha 275
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Jeremy Bowers" pessoas
+Jeremy Bowers   M       34      Travessa Dunstable, linha 284
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep "Jacqui Maher" pessoas
+Jacqui Maher    F       40      Travessa Andover, linha 224
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ head -n 98 Rua_Trapelo
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd entrevistas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-5455315
+Owens has an alibi for the morning in question, she was in Toronto for the Mozilla All Hands Meeting.  Multiple sources, including a person in a fox costume, corroborate this.  Not a suspect.
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$
+
+Aqui eu dei um head em todos os suspeitos de carros pra pegar todas entrevistas que ficaria mais facil.
+
+Agora vou ler todas entrevistas.
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/ruas
+$ cd ..
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ ls
+associacoes/  automoveis  cena-do-crime  entrevistas/  pessoas  ruas/
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ cd entrevistas
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-1767435
+Too short to match the camera footage.  Pilhofer is not considered a suspect.
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-2939888
+Billings should not be considered a suspect, she is too short to match the camera footage and the killer is believed to be male.
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-29741223
+Não deve ser considerado suspeito, pois não é associado ao SkyMiles e nunca foi membro do Museu de História do Bash.
+
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-9620713
+A casa parece estar vazia. Não houve resposta quando batemos na porta.
+
+Após questionar os vizinhos, parece que o morador viajou recentemente.
+
+Será considerado um suspeito até que se prove o contrário, mas teríamos que eliminar outros suspeitos para ter certeza.
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$ cat entrevista-904020
+Maher is not considered a suspect.  Video evidence confirms that she was away at a professional soccer game on the morning in question, even though it was a workday.
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/entrevistas
+$
+
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/associacoes
+$ grep Jeremy AAA
+Jeremy Bowers
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/associacoes
+$ grep Jeremy Delta_SkyMiles
+Jeremy Bowers
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/associacoes
+$ grep Jeremy Museu_da_História_do_Bash
+Jeremy Bowers
+
+PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio/associacoes
+$
+
+Linha de pensamento:
+
+Suspeito : Homem alto 1,83
+Carteira : AAA, Delta SkyMiles, Biblioteca Bash
+
+
+Testemunha: Annabel
+Aparencia: Cabelo curto
+País: Nova Zelandia
+
+4 Resultados para a Busca Annabel em carros.
+
+Proprietário: Oluwasegun Annabel
+Proprietário: Annabel Church
+Proprietário: Annabel Sun
+Proprietário: Annabel Fuglsang
+
+4 Resultados para busca Annabel em pessoas.
+
+Não é a Testemunha. Annabel Sun     F       26      Vila Hart, linha 40
+Não é a Testemunha. Oluwasegun Annabel      M       37      Rua Mattapan, linha 173
+                Annabel Church  F       38      Vila Buckingham, linha 179
+                Annabel Fuglsang        M       40      Rua Haley, linha 176
+
+***************
+Para ir até a rua em que uma pessoa mora, utilize o arquivo com o nome da
+rua, localizado no subdiretório "ruas".
+
+Para bater na porta da pessoa e investigar, leia o número da linha retirado
+deste arquivo.
+
+Se o conteúdo de uma linha não fizer nenhum sentido, você está na linha errada.
+***************
+
+Primeiro Resultado Vila Hart me jogou pra uma entrevista:
+LEIA A ENTREVISTA #47246024.
+
+Nada.
+_______________________________________________________________________________________
+
+Segundo Resultado Rua Mattapan me jogou pra uma entrevista:
+LEIA A ENTREVISTA #9437737
+
+
+Nada.
+_______________________________________________________________________________________
+
+Terceiro Resultado Vila Buckingham me jogou pra uma entrevista:
+LEIA A ENTREVISTA #699607
+
+Entrevistamos a Srta. Church às 14:04. A testemunha afirmou que não viu ninguém com as características do atirador e que saiu correndo assim que os tiros foram disparados.
+
+No entanto, ela reportou que viu um carro fugindo da cena do crime. Descreveu como um Honda azul, com placa que começa com "L337" e termina com "9".
+
+
+__________________________________________________________________________________________
+Quarto Resultado Rua Haley me jogou pra uma entrevista:
+LEIA A ENTREVISTA #871877
+
+Nada.
+
+
+Carro Suspeito:
+
+  Honda Azul
+  Placa: L337 e termina com 9
+
+  PC@DESKTOP-8LS3JQ3 MINGW64 ~/Desktop/assassinato-na-linha-de-comando/misterio
+$ grep L337 automoveis
+Placa L337ZR9 não é
+Placa L337P89 não é
+Placa L337GX9 não é
+Placa L337QE9
+Placa L337GB9 não é
+Placa L337OI9 não é
+Placa L337X19 não é
+Placa L337539
+Placa L3373U9 não é
+Placa L337369
+Placa L337DV9
+Placa L3375A9
+Placa L337WR9
+
+Então sobraram alguns..
+
+Placa L337QE9 Proprietário: Erika Owens Rua Trapelo, linha 98
+LEIA A ENTREVISTA #5455315 Não é um suspeito.
+
+
+Placa L337539 Proprietário: Aron Pilhofer Rua Claybourne, linha 145
+LEIA A ENTREVISTA #1767435 Não é um suspeito.
+
+
+Placa L337369 Proprietário: Heather Billings Rua Culbert, linha 19
+LEIA A ENTREVISTA #2939888 Não é um suspeito
+
+
+Placa L337DV9 Proprietário: Joe Germuska Rua Plainfield, linha 275
+LEIA A ENTREVISTA #29741223 Não é um suspeito.
+
+Placa L3375A9 Proprietário: Jeremy Bowers Travessa Dunstable, linha 284
+LEIA A ENTREVISTA #9620713 Viajou, possível suspeito.
+
+
+Placa L337WR9 Proprietário: Jacqui Maher Travessa Andover, linha 224
+LEIA A ENTREVISTA #904020 Não é um suspeito.
+
+O que nos deixa com Jeremy Bowers.
+
+Checando AAA, Delta SkyMiles, biblioteca e do Museu de História do Bash.
+
+Check para todas as comunidades de carteirinha, Como o suspeito viajou recentemente
+e bate com todas características o nosso assassino está foragido.
+
+JEREMY BOWERS, Homem 34 anos 1,83 dirige um honda azul.
