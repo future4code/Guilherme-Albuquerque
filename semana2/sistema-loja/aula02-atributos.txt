@@ -1,0 +1,52 @@
+Block level se:
+• Ele sempre começa em uma nova linha
+• Ele ocupa todo width (comprimento) necessário
+• ex: <div>
+Inline:
+• Não começa  nnuma nova linha
+• Ocupa o width necessário
+• ex: <span>
+
+Elementos de texto (block level):
+• <h2>
+• <h1>
+• <h3>
+• <h4>
+• <h5>
+• <h6>
+
+• <p>
+
+Quebras de linha:
+• <br>
+
+Formatando estilo:
+• <strong> Negrito! </strong>
+• <em> Itálico </em>
+• <u> Sublinhado </u>
+
+Elementos de listas (block level):
+• <ol> (ordened list)
+• <ul> (unordered list)
+• <li>
+
+Elementos de tabela:
+• <table> 
+• <tr> (inserção de linhas)
+• <td> (adicionando cada item)
+• <th> (fica centralizado na coluna)
+
+Elementos especiais:
+
+• Links <a href="https://www.google.com">Google</a>
+• Imagem <img src="img.jpg" alt="imagem">
+
+Formulários:
+
+• <form action="http://future4.com.br">
+• <input> usúario insere informações.
+    <input type="text" name="nome" id="nome">
+• <label> Indica o que o usuário deve escrever.
+    <label for="nome">Nome</label>
+• <button> cria um botão
+    <button type="submit"> Enviar </button>
