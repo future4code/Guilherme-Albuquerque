@@ -5,31 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Adicionar Produtos</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Adicionar produtos</h2>
-    <form action="index.html">
-    <ul>
-        <li><label for="img">Selecione uma imagem:</label>
-            <input type="file" name="img" id="img">
-        </li><br>
+        <div id="cabecalho">
+                <img src="img/oliver.png.png" alt="logo" width="150px">
+                 <div id="menu">
+                     <a href="index.html">• Home </a>
+                     <a href="estoque.html">• Controle de estoque</a>
+                     <a href="addProd.html">• Adicionar Produtos</a>  
+                     <a href="funcionarios.html">• Funcionários</a>  
+                 </div>
+ 
+                 <div id="sociais">
+                         <img src="img/sociais.png" alt="logos" width="200px">
+                 </div>
+                 
+                 <hr>
+ 
+         </div>    
+    
+    <div class="container-add-prod">
+        <h2>Adicionar produtos</h2><br><br>
 
-        <li><label for="nomeProd">Qual nome do produto:</label>
-            <input type="text" name="nomeProd" id="nomeProd">
-        </li><br>
 
-        <li><label for="preco">Preço do produto:</label>
-            <input type="number" name="preco" id="preco">
-        </li><br>
+        <form action="index.html">
+        <ul>
+            <li><label for="img">Selecione uma imagem:</label>
+                <input type="file" name="img" id="img">
+            </li><br>
 
-        <li><label for="quant">Quantidade disponível:</label>
-            <input type="number" name="quant" id="quant">
-        </li><br><br>
-        
-        <button type="submit"> Enviar </button>
-    </ul>
-    </form>
+            <li><label for="nomeProd">Qual nome do produto:</label>
+                <input type="text" name="nomeProd" id="nomeProd">
+            </li><br>
 
-    <a href="index.html"><h4>Home</h4></a>
+            <li><label for="preco">Preço do produto:</label>
+                <input type="number" name="preco" id="preco">
+            </li><br>
+
+            <li><label for="quant">Quantidade disponível:</label>
+                <input type="number" name="quant" id="quant">
+            </li><br><br>
+            
+            <button type="submit"> Enviar </button>
+        </ul>
+        </form>
+
+        <hr>
+        <div id="rodape">
+        <img src="img/oliver.png.png" alt="" width="100px">
+        <div class="menu-rodape-estoque">
+          <p>• Como chegar</p>
+          <p>• Fale Conosco</p>
+          <p>• Ajuda e suporte</p>
+          <p>• Sobre</p>
+        </div>
+    </div>
+
+    </div>
 </body>
 </html>
