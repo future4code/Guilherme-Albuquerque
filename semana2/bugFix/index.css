@@ -67,6 +67,10 @@ div img {
     width: 12px;
 }
 
+.icone:hover{
+    opacity: 0.3;
+}
+
 
 /** 
   *
