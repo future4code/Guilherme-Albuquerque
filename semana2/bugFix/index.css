@@ -22,10 +22,12 @@ input {
     width: 500px;
     border: none;
     border-bottom: 2px solid black;;
+    outline-style: none;
 }
 
 button:focus {
     color: white;
+    outline-style: none;
 }
 
 img {
@@ -51,6 +53,9 @@ div img {
 
 .botao-amarelo:hover {
     background-color: #c44f00;
+}
+.botao-amarelo:focus{
+    outline-style: none;
 }
 
 .container {
@@ -160,4 +165,5 @@ td button:hover {
 
 #back-button:focus{
     color: white;
+    outline-style: none;
 }
