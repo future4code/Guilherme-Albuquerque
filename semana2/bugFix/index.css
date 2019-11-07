@@ -76,7 +76,7 @@ div img {
 }
 
 #container-texto>ol {
-    padding: 15px 0px;
+    padding: 15px 800px;
 }
 
 
@@ -155,5 +155,9 @@ td button:hover {
 }
 
 #back-button:hover {
-    background-color: #635a3d
+    background-color: grey;
+}
+
+#back-button:focus{
+    color: white;
 }
