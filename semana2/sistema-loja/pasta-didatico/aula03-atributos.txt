@@ -1,0 +1,88 @@
+Podemos selecionar com:
+
+◘ Tags
+
+• Quando selecionamos por tags, ela seleciona todos elementos
+iniciados por ela por ex:
+    div {
+        background-color: red;
+        border: 1px solid black;
+    }
+
+◘ class
+
+• <p class="texto-primario"> Texto Bonito </p>
+
+em css:
+
+    •  .texto-primario {
+        color: green
+        border: 1px dotted black;
+    }
+
+◘ id 
+
+• Utilizamos para estilizar um UNICO elemento.
+
+id="texto-primeiro"
+
+em css:
+    • #texto-primeiro {
+        font-size: 100px;
+    }
+
+◘ Atributos:
+
+• margin
+    Representa o espaço que o elemento terá entre ele e os outros elementos
+
+• display
+
+    • block - Faz com o que o elemento ocupe todo elemento disponível.
+
+    • inline - Ocupa o comprimento necessário.
+
+    • display: none - faz com o que o elemento desapareça da tela.
+
+◘ Seletores Especiais
+
+    Seletor *
+    pseudoclasses
+
+    ◘ Seletor
+
+        • Permite alterar todos elementos
+            * {
+                margin: 0;
+                padding: 0; 
+            }
+
+
+◘ Seletores combinadores 
+
+    • por exemplo com classes ou ids:
+
+    h1.texto{
+        color:blue;
+    }
+
+    • seleção multiplas:
+        h1, h2 {
+            color:blue;
+        }
+
+◘ Unidades
+
+    • px:
+
+    • pt:
+
+    • %: Tamanho relativo ao tamanho do elemento padding
+
+    • 1vw: Tamanho em porcentagem ao comprimento da tela
+
+    • 1vh: equivale a 1% da altura da tela
+
+    • 1em: equivale a 1% da fonte do elemento pai.
+
+    • 1rem: equivale a 1% do tamanho da fonte do elemento raiz
