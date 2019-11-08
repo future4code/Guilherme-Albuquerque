@@ -23,6 +23,7 @@
 
 }
 
+
 a{
     text-decoration: none;
     color: rgb(142, 221, 142);
@@ -71,3 +72,34 @@ img{
     left: 50px;
 }
 
+.rodape{
+    position: absolute;
+    top: 570px;
+    left: 600px;
+    color: white;
+    font-size: 30px;
+
+}
+
+.insta-icon{
+
+    width: 100px;
+}
+
+.linkedin-icon{
+    position: absolute;
+    left: 40px;
+    width: 100px;
+}
+
+.git-icon{
+    position: absolute;
+    width: 150px;
+    left: 550px;
+    top: 225px
+}
+
+.rodape tr{
+    border: 1px solid red;
+    
+}
