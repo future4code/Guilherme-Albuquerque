@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'McLaren', cursive;
+    background-color: rgb(61, 61, 61);
+}
+
+/************* PÁGINA PRINCIPAL ****************/
+
+.container-top {
+    width: 1600px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+}
+
+.container-top th{
+    color: rgb(142, 221, 142);
+    padding-left: 150px;
+    padding-bottom: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(142, 221, 142);
+}
+
+a:hover{
+    color: white;
+}
+
+.future4{
+    width: 300px;
+}
+
+.escolas{
+    position: absolute;
+    left: 400px;
+    top: 300px;
+}
+
+.descricao-escolas{
+    position: absolute;
+    left: 800px;
+    top: 330px;
+}
+
+
+.descricao-escolas p{
+    color: white;
+}
