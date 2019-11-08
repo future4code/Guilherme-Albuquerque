@@ -34,7 +34,7 @@ a:hover{
 
 .descricao {
     position: absolute;
-    top: 150px;
+    top: 250px;
     left: 750px;
     background-color: rgb(142, 221, 142);
     width: 900px;
@@ -46,7 +46,7 @@ a:hover{
 img{
     width: 400px;
     position: absolute;
-    top: 150px;
+    top: 250px;
     left: 300px;
     background;
 }

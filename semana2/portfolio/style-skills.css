@@ -30,18 +30,22 @@ a:hover{
     color: white;
 }
 
-.img-projeto1 {
-    width: 370px;
-    border: 5px solid black;
-    height: 110px;
-}
-
-.container-tabela{
+.container-mid{
     position: absolute;
-    left: 200px;
     top: 300px;
+    left: 300px;
+    color: white;
 }
 
-a:hover{
-    background-color: black;
+.img-html{
+
+    width: 50px;
+    padding-left: 30px;
 }
+
+ul{
+    padding-left: 30px;
+}
+
+
+
