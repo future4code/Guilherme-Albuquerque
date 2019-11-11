@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'McLaren', cursive;
+    background-color: rgb(61, 61, 61);
+}
+
+.container-top {
+    width: 1600px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    top: 50px;
+
+}
+
+.container-top th{
+    color: rgb(142, 221, 142);
+    padding-left: 150px;
+    padding-bottom: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(142, 221, 142);
+}
+
+a:hover{
+    color: white;
+}
+
+.img-projeto1 {
+    width: 370px;
+    border: 5px solid black;
+    height: 110px;
+}
+
+.container-tabela{
+    position: absolute;
+    left: 200px;
+    top: 300px;
+}
+
+a:hover{
+    background-color: black;
+}
