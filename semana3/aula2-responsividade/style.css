@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    font-weight: bold;
+}
+
+.top-container{
+    background-color: red;
+    width: 100vw;
+    height: 10vh;
+}
+
+.sixpack-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box{
+    background-color: blue;
+    width: 30vw;
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-meio{
+    background-color: yellow;
+}
+
+.box-fim{
+    background-color: green;
+    
+}
+
+.black-boxes{
+    width: 100vw;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+
+}
+
+.blockb {
+    background-color: black;
+    width: 45vw;
+    height: 30vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-bottom{
+    display: flex;
+    widows: 100vw;
+    justify-content: space-around;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    height: 30vh;
+
+
+}
+
+.box-mid{
+    border: 2px solid black;
+    width: 30vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@media screen and (min-device-width: 421px) and (max-device-width: 800px){
+    .box-comeco{
+        width: 45vw;
+    }
+
+    .box-meio{
+        width: 45vw;
+    }
+    
+    .box-fim{
+        width: 95vw;
+    }
+
+    .bottom1, .bottom2{
+        width: 45vw;
+    }
+
+    .bottom3{
+        width: 95vw;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-device-width: 100px) and (max-device-width: 420px){
+
+
+.sixpack-container{
+    display: flex;
+    flex-direction: column;
+
+    align-content: space-around;
+}
+
+.box{
+    width: 95vw;
+}
+
+.black-boxes {
+    display: flex;
+    flex-direction: column;
+    height: 68vh;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blockb{
+    width: 95vw;
+    padding-top: 20px;
+}
+
+.container-bottom{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+.bottom1, .bottom2, .bottom3 {
+    width: 95vw;
+    
+
+}
+}
