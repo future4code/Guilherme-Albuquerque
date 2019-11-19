@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Planner</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h2>Planning your <span>F</span>uture</h2>
+        <div class="entradaDados">
+            <label for="">Nova Tarefa: </label>
+            <input type="text" id="inputtxt">
+            <select id="seletor">
+                <option value="domingo">Domingo</option>
+                <option value="segunda">Segunda-Feira</option>
+                <option value="terca">Terça-Feira</option>
+                <option value="quarta">Quarta-Feira</option>
+                <option value="quinta">Quinta-Feira</option>
+                <option value="sexta">Sexta-Feira</option>
+                <option value="sabado">Sábado</option>
+            </select>
+            <button onclick="criarTarefa();">Criar Tarefa!</button>
+        </div>
+    </header>
+  
+
+
+
+    <main class="container">
+        <div id="domingo"><p>Domingo</p></div>
+        <div id="segunda"><p>Segunda-Feira</p></div>
+        <div id="terca"><p>Terça-Feira</p></div>
+        <div id="quarta"><p>Quarta-Feira</p></div>
+        <div id="quinta"><p>Quinta-Feira</p></div>
+        <div id="sexta"><p>Sexta-Feira</p></div>
+        <div id="sabado"><p>Sábado</p></div>
+    </main>
+</body>
+</html>
