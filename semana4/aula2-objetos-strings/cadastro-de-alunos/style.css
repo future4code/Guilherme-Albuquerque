@@ -1,0 +1,29 @@
+
+#cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#cadastro input{
+    margin-bottom: 10px;
+}
+
+.alunos{
+    background: orange;
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    border: 2px dotted black;
+    margin-top: 10px;
+}
+
+body{
+    background:lightblue;
+    font-family: 'Oswald', sans-serif;
+}
+
+span{
+    color: orange;
+}
+
