@@ -1,0 +1,22 @@
+.container-Foto img{
+width: 70px;
+height: 70px;
+border-radius: 100%;
+margin-top: 20px;
+}
+
+.container-Foto{
+    display: flex;
+    width: 20vw;
+    border: 2px solid black;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tituloP{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+}
