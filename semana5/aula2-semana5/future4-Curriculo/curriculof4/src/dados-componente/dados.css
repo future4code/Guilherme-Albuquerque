@@ -1,13 +1,21 @@
 .container-dados img{
     width: 30px;
+    margin-left: 10px;
 }
 
 .dados{
     margin-left:10px;
 }
 
+.titulo{
+    margin-left: 10px;
+}
+
+
+
 .container-dados{
     border: 2px solid black;
     width: 20vw;
     display: flex;
+    margin-bottom: 10px;
 }

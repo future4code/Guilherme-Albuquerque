@@ -4,4 +4,9 @@
     border-radius: 50px;
     width: 10vw;
     justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.botao-cont img{
+    width: 40px;
 }

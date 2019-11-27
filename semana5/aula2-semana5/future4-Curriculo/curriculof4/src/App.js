@@ -11,6 +11,8 @@ import PageSection from './page-section/PageSection'
 import BotaoCont from './botao-conteudo/BotaoCont'
 import ArrowDown from './icones/down-arrow.svg'
 import FbIcon from './icones/fb-icon.svg'
+import FutureIcon from './icones/future-icon.png'
+import OutbackIcon from './icones/outback-icon.png'
 
 function App() {
   return (
@@ -23,6 +25,15 @@ function App() {
         <DadosUsuario imagem={EmailIcon} titulo="Email:" texto="guilhermeabq.f@gmail.com"/>
         <DadosUsuario imagem={HouseIcon} titulo="Endereço:" texto="Av: Jorge Zarur 431"/>
         <BotaoCont imagem={ArrowDown} texto="Ver mais"/>
+      </PageSection>
+
+      <PageSection titulo="Experiências Profissionais">
+        <FotoTexto imagem={FutureIcon} titulo="Future4" texto="Formando desenvolvedores para o Futuro"/>
+        <FotoTexto imagem={OutbackIcon} titulo="Outback" texto="4 anos de experiência na empresa que ganhou o premio de melhor atendimento do Brasil em 2017/2018"/>
+      </PageSection>
+
+      <PageSection titulo="Minhas redes sociais">
+        <BotaoCont imagem={FbIcon} texto="Facebook"/>
       </PageSection>
     </div>
   );
