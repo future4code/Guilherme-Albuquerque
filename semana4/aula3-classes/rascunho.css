@@ -1,0 +1,9 @@
+img{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+}
