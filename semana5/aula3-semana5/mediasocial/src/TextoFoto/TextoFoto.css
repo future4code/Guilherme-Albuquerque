@@ -1,0 +1,18 @@
+.texto-foto{
+
+    margin: 0px 10px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.texto-foto p{
+    width: 100vw;
+}
+
+.texto-foto h3{
+    font-size: 16px;
+    width: 100px;
+    display: inline;
+    margin-right: 10px;
+}

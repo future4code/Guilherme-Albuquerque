@@ -1,0 +1,45 @@
+.icon-profile{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: 2px solid rgb(203, 45, 139);
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.header-titulo{
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(38, 38, 38);
+    font-weight: 600;
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+.header-titulo img{
+    margin: 14px 0;
+    width: 32px;
+    height: 32px;
+}
+
+.header-titulo p{
+   
+    position: relative;
+    left: -100px;
+    top: 10px;
+}
+
+.imagem-post img{
+    width: 100vw;
+    border-top: 0.7px solid lightgray;
+    border-bottom: 0.7px solid lightgray;;
+   
+
+}

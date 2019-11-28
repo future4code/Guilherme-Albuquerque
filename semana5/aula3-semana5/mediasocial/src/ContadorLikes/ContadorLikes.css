@@ -1,0 +1,16 @@
+.contador {
+
+    margin: 20px 10px;
+    display: flex;
+}
+
+.contador img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.contador p{
+    margin: 0px;
+    margin-left: 10px;
+}
