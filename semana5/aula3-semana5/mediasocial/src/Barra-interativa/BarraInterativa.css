@@ -1,0 +1,101 @@
+
+.barra-interativa{
+
+    display: flex;
+    padding-top: 14px;
+
+}
+.barra-interativa img{
+    width: 32px;
+    margin-left: 10px;
+
+}
+
+.barra-interativa img:nth-of-type(3){
+
+    position: absolute;
+    left: 65px;
+}
+
+.barra-interativa img:nth-of-type(2){
+
+    position: absolute;
+    left: 35px;
+}
+
+.barra-interativa img:nth-of-type(4){
+
+    position: absolute;
+    left: 320px;
+    height: 32px;
+}
+
+.contador {
+
+    margin: 20px 10px;
+    display: flex;
+}
+
+.contador img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+
+.contador p{
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.texto-foto{
+
+    margin: 0px 10px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.texto-foto p:nth-of-type(2){
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.texto-foto h3{
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.inputDeComentario img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+.inputDeComentario{
+    display: flex;
+    height: 8vh;
+    border-bottom: 20px;
+}
+
+.inputDeComentario input{
+    border-radius: 50px;
+    border: 1px solid lightgray;
+    width: 70vw;
+    height: 36.16px;
+    
+}
+
+.inputDeComentario button{
+    height: 36.16px;
+    background-color: white;
+    border: none;
+    position: absolute;
+    left: 270px;
+    bottom: -75px;
+    border-radius: 50px;
+}
+
+
