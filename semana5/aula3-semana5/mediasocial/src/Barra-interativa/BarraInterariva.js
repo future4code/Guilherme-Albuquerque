@@ -105,6 +105,7 @@ class BarraInterativa extends React.Component {
                 <div className="texto-foto">
                     <p><h3>{this.props.tituloAutor}</h3>{this.props.texto}</p>
                     <p>Ver mais todos os {this.state.quantidadeDeComentarios} comentários</p>
+                    
                     {
                         this.retornaEstadoComent()
                     }
