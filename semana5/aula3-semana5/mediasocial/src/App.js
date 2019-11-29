@@ -14,6 +14,7 @@ import LogiLogo from './img/logi.png'
 import LogiPost from './img/logi-post.png'
 import NintendoPost from './img/nintendo-post.png'
 import NintendoLogo from './img/nintendo-logo.png'
+import Form from './Form/Form'
 
 function App() {
   return (
@@ -34,7 +35,9 @@ function App() {
 
       <BarraInterativa img={LikeProfile} tituloAutor="Nintendo" texto="Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                                       Phasellus elemen congue in.
-                                                                      Nunc vulputate enim neque."/>                                                                
+                                                                      Nunc vulputate enim neque."/>
+
+      <Form/>                                                                
     </div>
   );
 }
