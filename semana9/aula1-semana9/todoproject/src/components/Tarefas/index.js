@@ -9,7 +9,6 @@ const RemoveButton = styled.span `
     font-size: 20px;
     font-family: "Roboto", "sans-serif";
     margin-left: 10px;
-
 `
 
 const LiTexto = styled.li `

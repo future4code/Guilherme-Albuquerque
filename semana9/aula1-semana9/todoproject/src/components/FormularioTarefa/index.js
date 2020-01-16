@@ -44,20 +44,18 @@ class FormularioTarefa extends React.Component {
             this.lidaComCriarTarefa();
             
         }
-
     }
 
     //Criar nova tarefa
     lidaComCriarTarefa = () => {
         const novaTarefa = {
-            id: new Date().getTime(),
+            id: new Date().getTime(), //Cria id aleatório com base na nossa data atual.
             texto: this.state.novaTarefaTxt,
             completed: false,
         }
         this.setState({
             novaTarefaTxt: ""
         })
-
         this.props.criarNovaTarefa(novaTarefa);
     }
 
@@ -67,10 +65,12 @@ class FormularioTarefa extends React.Component {
                 <Input type="text" value={this.state.novaTarefaTxt}
                     onChange={this.lidaComMudancaTarefa}
                     onKeyPress={this.lidaComEnter}
-                    placeholder="Qual tarefa deseja criar?"
-                />
+                    placeholder="Qual tarefa deseja criar?"/>
+                
 
-                <ButtonEnviar onClick={() => {this.lidaComCriarTarefa()}}>Enviar</ButtonEnviar>
+                <ButtonEnviar 
+                    onClick={() => {this.lidaComCriarTarefa()}}>        
+                </ButtonEnviar>
             </ContainerDiv>
 
         )
@@ -81,4 +81,4 @@ const mapDispatchToProps = (dispatch) => ({
     criarNovaTarefa : (tarefa) => dispatch (criarTarefa(tarefa))
 })
 
-export default connect (null, mapDispatchToProps) (FormularioTarefa);
+export default connect (null, mapDispatchToProps) (FormularioTarefa); //o null seria o mapStateToProps, caso.

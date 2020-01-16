@@ -1,7 +1,7 @@
 export const criarTarefa = (novaTarefa) => ({
     type: "CRIAR_TAREFA",
     payload: {
-        novaTarefa: novaTarefa,
+        novaTarefa: novaTarefa, //Deixei assim pra não confundir na hora de voltar
     }
 })
 
