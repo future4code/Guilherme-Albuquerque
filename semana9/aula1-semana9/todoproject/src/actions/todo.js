@@ -15,6 +15,6 @@ export const marcarTarefa = (tarefaId) => ({
 export const deletarTarefa = (tarefaId) => ({
     type: "DELETAR_TAREFA",
     payload: {
-        tarefaId,
+        tarefaId: tarefaId,
     }
 })

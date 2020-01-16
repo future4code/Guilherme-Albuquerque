@@ -1,8 +1,7 @@
 // Estado inicial
 
 const initialState = {
-    todasTarefas: [{
-    }],
+    todasTarefas: [],
     
 }
 
@@ -30,11 +29,14 @@ const tarefas = (state = initialState, action) => {
         }
 
         case "DELETAR_TAREFA": {
+            
             const tarefasAtualizadas = state.todasTarefas.filter((cadaTarefa) => {
+                console.log(action.payload)
                 return cadaTarefa.id !== action.payload.tarefaId;
             });
-        
+            
         return {...state, todasTarefas: tarefasAtualizadas};
+        
         }
 
         default:
