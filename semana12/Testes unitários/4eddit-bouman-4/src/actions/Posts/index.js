@@ -24,7 +24,7 @@ export const fetchPosts  = () => async (dispatch) => {
    
 }
 
-export const setPosts = (posts) => ({
+const setPosts = (posts) => ({
     type: "SET_POSTS",
     payload: {
         posts

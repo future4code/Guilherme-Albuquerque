@@ -1,16 +1,6 @@
-import {setPosts} from './index'
-
-describe('Testa action dos posts'), ()=> {
-  test('Testa setPost action'), ()=>{
-
-    //Preparação
-    const textoDeTeste = 'setPost de teste'
-    
-    //Execucao
-    const action = setPosts(textoDeTeste)
-
-    //Verificação
-    expect(action.type).toBe(3)
-  })
-}
-
+import { setPosts } from "./index";
+test("Testa se a action setPost funciona", () => {
+  const textoDeTeste = "setPost action";
+  const action = setPosts(textoDeTeste);
+  expect(action.type).toEqual("SET_POSTS");
+});
