@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
-import {HeaderContainer} from '../HeaderContainer/index'
+import HeaderContainer from '../HeaderContainer/index'
+import TaskPanel from '../TaskPanel/index'
 
 class Planner extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class Planner extends React.Component {
     
     <div>
       <HeaderContainer/>
+      <TaskPanel/>
     </div>  
     
     

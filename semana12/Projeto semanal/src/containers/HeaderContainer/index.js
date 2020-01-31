@@ -24,7 +24,8 @@ export class HeaderContainer extends Component {
     })
   }
 
-  createTask = () => {
+  createTask = (ev) => {
+    ev.preventDefault();
     this.props.createNewTask(this.state.inputText, this.state.daySelect)
   }
   
@@ -32,7 +33,7 @@ export class HeaderContainer extends Component {
     
     return (
       <div>
-        <form>
+        <form onSubmit={this.createTask}>
           <input
             type="text" label="Digite sua tarefa: "
             name="inputText" 
@@ -45,18 +46,17 @@ export class HeaderContainer extends Component {
              onChange = {this.handleSelect}
           >
 
-            <option></option>
-            <option label='Segunda-Feira'/>
-            <option>Terça-Feira</option>
-            <option>Quarta-Feira</option>
-            <option>Quinta-Feira</option>
-            <option>Sexta-Feira</option>
-            <option>Sábado</option>
-            <option>Domingo</option>
-
+            <option/>
+            <option label='Segunda-Feira' value='Segunda-Feira'/>
+            <option label='Terça-Feira' value='Terça-Feira'/>
+            <option label='Quarta-Feira' value='Quarta-Feira'/>
+            <option label='Quinta-Feira' value='Quinta-Feira'/>
+            <option label='Sexta-Feira' value='Sexta-Feira'/>
+            <option label='Sábado' value='Sábado'/>
+            <option label='Domingo' value='Domingo'/>
           </select>
 
-          <button onClick={this.createTask}>Enviar!</button>
+          <button type="submit">Enviar!</button>
         </form>
       </div>
 

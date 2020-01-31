@@ -1,9 +1,10 @@
 import Axios from 'axios'
+const urlAluno = 'https://us-central1-missao-newton.cloudfunctions.net/generic/planner-bouman-guilherme'
 
 export const createNewTask = (taskText, taskDay) => async (dispatch) => {
-  const urlAluno = 'https://us-central1-missao-newton.cloudfunctions.net/generic/:planner-bouman-guilherme'
+  
   try {
-    const response = await Axios.post (
+    await Axios.post (
       urlAluno,
       {
         "text": taskText,
@@ -16,5 +17,27 @@ export const createNewTask = (taskText, taskDay) => async (dispatch) => {
   catch(error){
     alert('Ocorreu um erro')
     console.log(error)
+
   }
 }
+
+export const getTasks = () => async (dispatch) => {
+  try {
+    const response = await Axios.get (
+      urlAluno
+    )
+    dispatch(setTasks(response.data))
+
+  }
+  
+  catch(error){
+    console.log(error)
+  }
+}
+
+const setTasks = (tasks) => ({
+  type: "SET_TASKS",
+  payload: {
+      tasks
+  }
+})

@@ -1,5 +1,6 @@
 import { combineReducers } from "redux";
+import {postReducer} from './tasks'
 
 export const rootReducer = combineReducers({
-  // Seus reducers aqui
+  postReducer
 });
