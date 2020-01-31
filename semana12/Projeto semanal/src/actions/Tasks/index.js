@@ -11,7 +11,7 @@ export const createNewTask = (taskText, taskDay) => async (dispatch) => {
         "day": taskDay,
       }
     )
-    alert('Sucesso')
+    dispatch(getTasks())
   }
 
   catch(error){
@@ -26,6 +26,7 @@ export const getTasks = () => async (dispatch) => {
     const response = await Axios.get (
       urlAluno
     )
+    console.log(response.data)
     dispatch(setTasks(response.data))
 
   }
@@ -35,7 +36,7 @@ export const getTasks = () => async (dispatch) => {
   }
 }
 
-const setTasks = (tasks) => ({
+export const setTasks = (tasks) => ({
   type: "SET_TASKS",
   payload: {
       tasks
