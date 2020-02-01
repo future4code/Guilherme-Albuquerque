@@ -9,7 +9,7 @@ font-family: 'Montserrat', sans-serif;
 
 const StyledPTittle = styled.p`
 
-letter-spacing: 2px;
+letter-spacing: 5px;
 font-size: 30px;
 `
 

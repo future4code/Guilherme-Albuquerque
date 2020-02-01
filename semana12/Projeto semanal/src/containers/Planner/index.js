@@ -49,7 +49,7 @@ class Planner extends React.Component {
       </MainContainer>
       :
       (<StyledLoading>
-      <img src={Loading}></img>
+        <img src={Loading}></img>
       </StyledLoading>)
        }
       
