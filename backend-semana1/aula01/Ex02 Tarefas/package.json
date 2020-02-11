@@ -1,0 +1,12 @@
+{
+  "name": "ex02-tarefas",
+  "version": "1.0.0",
+  "description": "Criação de tarefas",
+  "main": "ex02.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex02.js"
+  },
+  "author": "Guilherme Albuquerque",
+  "license": "ISC"
+}

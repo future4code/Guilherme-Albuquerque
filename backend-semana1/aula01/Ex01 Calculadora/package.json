@@ -1,0 +1,11 @@
+{
+  "name": "ex01-calculadora",
+  "version": "1.0.0",
+  "description": "MathOperatorMeme",
+  "main": "ex01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ex01.js"},
+  "author": "Guilherme Albuquerque",
+  "license": "ISC"
+}
