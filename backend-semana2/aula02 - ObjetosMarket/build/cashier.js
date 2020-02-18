@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const employer_1 = require("./employer");
-class cashier extends employer_1.employer {
+class Cashier extends employer_1.Employer {
     calculateBill(dishes) {
         let total = 0;
         dishes.forEach(element => {
@@ -13,5 +13,5 @@ class cashier extends employer_1.employer {
         return ("Cashier");
     }
 }
-exports.cashier = cashier;
+exports.Cashier = Cashier;
 //# sourceMappingURL=cashier.js.map

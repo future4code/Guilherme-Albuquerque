@@ -1,9 +1,9 @@
-import {employer} from './employer'
+import {Employer} from './employer'
 import {Dish} from './dish'
 
-export class cashier extends employer {
+export class Cashier extends Employer {
 
-  calculateBill (dishes: Dish []) {
+  calculateBill (dishes: Dish []): number {
     let total = 0
     dishes.forEach(element => {
       total += element.price
