@@ -49,7 +49,7 @@ class Bank {
   class UserAccount {
     balance: number
     cpf: string
-    name: string
+    name: string  
     age: number
     transactions: Transaction[]
   }
