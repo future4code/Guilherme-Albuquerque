@@ -1,0 +1,11 @@
+[
+  {
+    "holder": {
+      "name": "Guilherme",
+      "cpf": "12312312311",
+      "birthDate": "1991-02-26T03:00:00.000Z"
+    },
+    "expenses": [],
+    "balance": 0
+  }
+]
