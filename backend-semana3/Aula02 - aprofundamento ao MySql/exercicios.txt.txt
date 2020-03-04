@@ -1,0 +1,148 @@
+Exercicio 1
+
+USE exercicios;
+
+DESCRIBE city;
+
+SELECT name FROM city
+ORDER BY population desc
+limit 5;
+
+SELECT * FROM city;
+
+SELECT AVG (Population), District
+from city 
+group by District;
+
+SELECT COUNT(Name), District
+from city
+group by District;
+
+SELECT COUNT(Name), countrycode
+from city
+group by CountryCode
+order by Count(name) DESC
+limit 10;
+
+
+
+_____________________________________________________________________________________________
+EXERCICIO 2
+
+SELECT * from country;
+-- 1. Os 100 primeiros países com mais de 100 mil habitantes.
+
+Select name, population from country
+where population > 100000
+Order by population asc
+limit 100;
+
+-- 2. A quantidade de países com mais de 5 milhões de habitantes.
+
+SELECT COUNT(name) from country
+where population > 5000000;
+
+-- 3. A soma do valor de todas as populações da Asia, com o Alias "Soma de população".
+
+SELECT sum(population) AS "Soma da população" from country 
+where Continent = "Asia";
+
+-- 4. A quantidade de Repúblicas e Monarquias no mundo.
+
+SELECT Count(Name) from country
+where GovernmentForm like '%Republic%' or GovernmentForm like '%Monarchy%';
+
+-- 5. A forma de governo que mais se repete e a quantidade de vezes que aparece.
+
+Select count(GovernmentForm),GovernmentForm  from country
+group by GovernmentForm
+order by Count(GovernmentForm) desc;
+
+-- 6. A média de população de cada continente.
+Select avg(population), Continent from country
+group by Continent;
+
+-- 7. Os dez últimos países a conquistar independência.
+select name, indepYear from country
+order by indepYear desc
+limit 10;
+
+-- 8. A média de expectativa de vida de cada continente. 
+-- Importante: o nome dos continentes deve ser exibido em caixa baixa (letras minúsculas).
+
+Select AVG(LifeExpectancy), lower(Continent) from country
+group by Continent;
+
+-- 9. Os 3 continentes mais extensos em território.
+Select Continent, sum(SurfaceArea)  from country
+group by Continent
+order by sum(SurfaceArea) desc
+limit 3;
+
+___________________________________________________________________________________________
+
+Exercícios de escrita
+
+use `bouman-guilherme`;
+
+select * from filmsEx;
+
+insert filmsEx values (
+	6,
+    "La la land",
+    " a day to forget",
+    2017,
+    188,
+    "R"
+),(
+	7,
+    "Lagoa Azul",
+    "Classico",
+    1995,
+    182,
+    "R"
+),(
+	8,
+    "Jogos Mortais",
+    "Who you really are?",
+    2002,
+    134,
+    "NC-17"
+),(
+	9,
+    "Titanic",
+    "Blind driver",
+    1991,
+    199,
+    "G"
+),(
+	10,
+    "Maze Runner",
+    "O primeiro é o melhor",
+    2014,
+    129,
+    "G"
+);
+use `bouman-guilherme`;
+select * from actorsEx;
+
+ALTER TABLE filmsEx
+add watched bool not null default false;
+
+
+
+
+select * from filmsEx;
+
+update filmsEx
+set watched = true
+where rating = "PG-13";
+
+select * from filmsEx;
+
+ALTER TABLE filmsEx
+add lucky_number int not null default 0;
+
+update filmsEx 
+set lucky_number = FLOOR(RAND() * 1000)
+
