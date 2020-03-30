@@ -1,0 +1,41 @@
+Primeiro teremos que decidir algumas coisas antes de dar deploy na nossa máquina
+virtual, como por exemplo a config da maquina, localização do servidor e sistema
+operacional.
+
+Usando o SSH conectamos a nossa máquina virtual por um terminal local.
+
+Uma vez conectado a nossa máquina virtual podemos instalar as dependências nece-
+ssárias para o nosso projeto em questão ex: NodeJs, MySql etc..
+
+As máquinas da EC2 tem um grupo de segurança, então devemos liberar as portas
+que desejamos para serem acessadas pelo "mundo"
+
+
+Arthur@DESKTOP-H94QIVG MINGW64 ~/Desktop/Projetos Future4
+$ cd Keys
+
+Arthur@DESKTOP-H94QIVG MINGW64 ~/Desktop/Projetos Future4/Keys
+$ ls
+ec2-guilherme-linux.pem
+
+Arthur@DESKTOP-H94QIVG MINGW64 ~/Desktop/Projetos Future4/Keys
+$ ssh -i ec2-guilherme-linux.pem ubuntu@23.20.27.163
+Welcome to Ubuntu 18.04.3 LTS (GNU/Linux 4.15.0-1057-aws x86_64)
+
+Não coloquei o "chmod 400 chaves.pem" por que já tinha feito isso!
+
+7. Para finalizar: escreva rapidamente as diferenças e as semelhanças entre o
+ que você fez nesse exercício e o que fizemos em aula
+
+ Não foram muitas coisas que eu fiz diferente do que foi feito em aula, apenas
+ não instalei o python na máquina virtual, e refiz o processo de abertura de
+ portas por didática.
+
+Exercício 2
+
+4. Escrevam no arquivo quais foram as dificuldades que você teve nesse processo.
+Além disso, pense pelo lado positivo, e descreva o que foi mais fácil de fazer.
+
+Resumindo eu só copiei e colei vários códigos do tutorial, as vezes rolava algum
+bug de digitação ou esquecia do ; mas no geral foi tudo bem, o mais fácil foi
+abrir as portas no ec2 pq está ficando mais prático.
