@@ -1,0 +1,11 @@
+Reescreva a função abaixo seguindo a sintaxe necessária para associa-la a uma 
+lambda e suba-a no console da AWS.
+
+exports.handler = async (event) => {
+    const response = {
+        statusCode: 200,
+        body: "Olá mundo, sou uma mensagem da AWS"
+    }
+    return response
+}
+
