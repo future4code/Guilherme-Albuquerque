@@ -1,0 +1,11 @@
+Crie uma função de lambda que receba dois números e retorne, em seu body, a sua 
+soma deles dois.
+
+exports.handler = async (event) => {
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify(`Olá ${(+(event.n1)) + (+(event.n2))} `)
+    }
+    
+    return response;
+}
